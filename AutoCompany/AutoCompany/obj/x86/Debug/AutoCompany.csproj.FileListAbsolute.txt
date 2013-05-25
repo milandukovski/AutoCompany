@@ -1,0 +1,11 @@
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\bin\Debug\AutoCompany.exe
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\bin\Debug\AutoCompany.pdb
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.Catalog.resources
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.Form1.resources
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.Properties.Resources.resources
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.csproj.GenerateResource.Cache
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.exe
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.pdb
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.LoginForm.resources
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.csprojResolveAssemblyReference.cache
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.StaffInterface.resources
