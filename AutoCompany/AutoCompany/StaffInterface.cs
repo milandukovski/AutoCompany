@@ -86,5 +86,13 @@ namespace AutoCompany
             TABLE.DataSource = null;
             TABLE.Visible = false;
         }
+
+        private void AddCarBtn_Click(object sender, EventArgs e)
+        {
+            CreateCar createCar = new CreateCar();
+            createCar.logIn(user);
+            createCar.ShowDialog();
+
+        }
     }
 }

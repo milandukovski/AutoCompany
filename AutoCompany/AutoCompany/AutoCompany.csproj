@@ -49,11 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCar.cs" />
     <Compile Include="Catalog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Catalog.Designer.cs">
       <DependentUpon>Catalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateCar.Designer.cs">
+      <DependentUpon>CreateCar.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -80,6 +87,9 @@
     </Compile>
     <EmbeddedResource Include="Catalog.resx">
       <DependentUpon>Catalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateCar.resx">
+      <DependentUpon>CreateCar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

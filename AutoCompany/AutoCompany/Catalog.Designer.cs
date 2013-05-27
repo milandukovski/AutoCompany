@@ -33,8 +33,10 @@
             this.NextBtn = new System.Windows.Forms.Button();
             this.CarSpecifics = new System.Windows.Forms.RichTextBox();
             this.LogoBox = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.CarPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // CarPicture
@@ -67,7 +69,7 @@
             // 
             // CarSpecifics
             // 
-            this.CarSpecifics.Location = new System.Drawing.Point(555, 172);
+            this.CarSpecifics.Location = new System.Drawing.Point(28, 19);
             this.CarSpecifics.Name = "CarSpecifics";
             this.CarSpecifics.ReadOnly = true;
             this.CarSpecifics.Size = new System.Drawing.Size(142, 197);
@@ -83,14 +85,24 @@
             this.LogoBox.TabIndex = 4;
             this.LogoBox.TabStop = false;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.CarSpecifics);
+            this.groupBox1.Location = new System.Drawing.Point(555, 172);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 232);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Details:";
+            // 
             // Catalog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(782, 464);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.LogoBox);
-            this.Controls.Add(this.CarSpecifics);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.PervBtn);
             this.Controls.Add(this.CarPicture);
@@ -98,6 +110,7 @@
             this.Text = "Catalog";
             ((System.ComponentModel.ISupportInitialize)(this.CarPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoBox)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -109,5 +122,6 @@
         private System.Windows.Forms.Button NextBtn;
         private System.Windows.Forms.RichTextBox CarSpecifics;
         private System.Windows.Forms.PictureBox LogoBox;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

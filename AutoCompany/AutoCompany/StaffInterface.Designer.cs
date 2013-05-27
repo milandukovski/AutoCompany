@@ -37,6 +37,7 @@
             this.TABLE = new System.Windows.Forms.DataGridView();
             this.CheckServis = new System.Windows.Forms.Button();
             this.ClearBtn = new System.Windows.Forms.Button();
+            this.AddCarBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TABLE)).BeginInit();
             this.SuspendLayout();
@@ -133,12 +134,24 @@
             this.ClearBtn.Visible = false;
             this.ClearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
+            // AddCarBtn
+            // 
+            this.AddCarBtn.Font = new System.Drawing.Font("Arial Unicode MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCarBtn.Location = new System.Drawing.Point(635, 307);
+            this.AddCarBtn.Name = "AddCarBtn";
+            this.AddCarBtn.Size = new System.Drawing.Size(149, 41);
+            this.AddCarBtn.TabIndex = 9;
+            this.AddCarBtn.Text = "Add Car";
+            this.AddCarBtn.UseVisualStyleBackColor = true;
+            this.AddCarBtn.Click += new System.EventHandler(this.AddCarBtn_Click);
+            // 
             // StaffInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(796, 471);
+            this.Controls.Add(this.AddCarBtn);
             this.Controls.Add(this.ClearBtn);
             this.Controls.Add(this.CheckServis);
             this.Controls.Add(this.TABLE);
@@ -170,5 +183,6 @@
         public System.Windows.Forms.DataGridView TABLE;
         private System.Windows.Forms.Button CheckServis;
         private System.Windows.Forms.Button ClearBtn;
+        private System.Windows.Forms.Button AddCarBtn;
     }
 }

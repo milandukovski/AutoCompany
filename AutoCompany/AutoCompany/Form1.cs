@@ -43,5 +43,25 @@ namespace AutoCompany
 
 
         }
+
+        private void Login_MouseHover(object sender, EventArgs e)
+        {
+            Login.BackColor = Color.Aqua;
+        }
+
+        private void Login_MouseLeave(object sender, EventArgs e)
+        {
+            Login.BackColor = Color.White;
+        }
+
+        private void CatalogBtn_MouseHover(object sender, EventArgs e)
+        {
+            CatalogBtn.BackColor = Color.Aqua;
+        }
+
+        private void CatalogBtn_MouseLeave(object sender, EventArgs e)
+        {
+            CatalogBtn.BackColor = Color.White;
+        }
     }
 }

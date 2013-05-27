@@ -36,6 +36,7 @@
             // 
             // CatalogBtn
             // 
+            this.CatalogBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CatalogBtn.Font = new System.Drawing.Font("Arial Unicode MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CatalogBtn.Location = new System.Drawing.Point(387, 199);
             this.CatalogBtn.Name = "CatalogBtn";
@@ -44,9 +45,13 @@
             this.CatalogBtn.Text = "Каталог";
             this.CatalogBtn.UseVisualStyleBackColor = true;
             this.CatalogBtn.Click += new System.EventHandler(this.CatalogBtn_Click);
+            this.CatalogBtn.MouseEnter += new System.EventHandler(this.CatalogBtn_MouseHover);
+            this.CatalogBtn.MouseLeave += new System.EventHandler(this.CatalogBtn_MouseLeave);
+            this.CatalogBtn.MouseHover += new System.EventHandler(this.CatalogBtn_MouseHover);
             // 
             // Login
             // 
+            this.Login.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Login.Font = new System.Drawing.Font("Arial Unicode MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Login.Location = new System.Drawing.Point(13, 199);
             this.Login.Name = "Login";
@@ -55,6 +60,8 @@
             this.Login.Text = "LOGIN";
             this.Login.UseVisualStyleBackColor = true;
             this.Login.Click += new System.EventHandler(this.Login_Click);
+            this.Login.MouseLeave += new System.EventHandler(this.Login_MouseLeave);
+            this.Login.MouseHover += new System.EventHandler(this.Login_MouseHover);
             // 
             // pictureBox1
             // 
@@ -70,7 +77,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(802, 477);
+            this.ClientSize = new System.Drawing.Size(674, 477);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.CatalogBtn);
             this.Controls.Add(this.Login);

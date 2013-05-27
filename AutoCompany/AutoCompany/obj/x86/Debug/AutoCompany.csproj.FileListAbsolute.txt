@@ -9,3 +9,4 @@ D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoC
 D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.LoginForm.resources
 D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.csprojResolveAssemblyReference.cache
 D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.StaffInterface.resources
+D:\documents\BaziNaPodatoci\Projects\AutoCompany\AutoCompany\obj\x86\Debug\AutoCompany.CreateCar.resources
